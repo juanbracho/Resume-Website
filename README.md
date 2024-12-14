@@ -1,3 +1,5 @@
+### PERSONAL INFO NOT UPDATED
+
 # Personal Portfolio Website
 
 This repository contains the source code and assets for my personal portfolio website. The website showcases my professional journey, skills, and contact information. It was built to highlight my experience in law, project management, and web development, with a clean, modern design that emphasizes usability and clarity.
