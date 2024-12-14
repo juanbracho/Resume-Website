@@ -1,4 +1,4 @@
-### PERSONAL INFO NOT UPDATED
+# PERSONAL INFO NOT UPDATED
 
 # Personal Portfolio Website
 
