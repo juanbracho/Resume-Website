@@ -1,0 +1,182 @@
+@media screen and (max-width: 600px) {
+
+    //header queries.
+    //Content all the way to the right.
+    header {
+        padding: 0;
+    }
+
+    header .right-header {
+        padding: .5rem !important;
+    }
+
+    //Text to be more close.
+    header p {
+        line-height: 1.2 !important;
+    }
+
+    //light mode btn smaller
+    .theme-btn {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    //grids to just have 1
+    .header-content {
+        grid-template-columns: 1fr !important;
+        padding-bottom: 6rem !important;
+    }
+
+    //removing shape behind img
+    .left-header {
+        padding-top: 2rem;
+        height: max-content;
+
+        .header-shape {
+            display: none !important;
+        }
+    }
+
+    //right header to be on top
+    .right-header {
+        grid-row: 1 !important;
+        width: 90% !important;
+        margin: 0 auto !important;
+
+        //name adjustment
+        .name {
+            font-size: 2.5rem !important;
+        }
+    }
+
+    //margin adjustment
+    .header-content .left-header .image {
+        margin: 0 auto !important;
+        width: 90% !important;
+    }
+
+    //about section queries
+    .about-container {
+        grid-template-columns: 1fr !important;
+
+        .right-about {
+            padding-top: 2.5rem !important;
+        }
+    }
+
+    .section {
+        padding: 2rem 2.5rem !important;
+    }
+
+    .timeline {
+        grid-template-columns: 1fr !important;
+        padding-bottom: 6rem !important;
+    }
+
+    .about-stats {
+        grid-template-columns: 1fr !important;
+    }
+
+    // experience section queries
+    .experiences {
+        padding-bottom: 6rem;
+    }
+
+    //education section queries
+    .educations {
+        grid-template-columns: 1fr !important;
+        padding-bottom: 6rem !important;
+    }
+
+    //contact section queries
+    .contact-content {
+        flex-direction: column !important;
+        margin-left: 0 !important;
+        margin-top: 2.5rem !important;
+    }
+
+    //name and email input to be in column
+    .contact-content .right-contact .text-email {
+        flex-direction: column !important;
+    }
+
+    .contact-content .right-contact .text-email :last-child {
+        margin-left: 0 !important;
+        margin-top: 1.5rem !important;
+    }
+
+    .contact-item {
+        height: 40px !important;
+    }
+
+    .section {
+        padding: 2rem 2.5rem;
+    }
+
+    //control queries
+
+    //controls on bottom and center.
+    .controls {
+        top: auto !important;
+        bottom: 0;
+        flex-direction: row !important;
+        justify-content: center !important;
+        left: 50%;
+        transform: translateX(-50%) !important;
+        width: 100%;
+        background-color: var(--color-grey-5);
+
+        //space adjustment between btns.
+        .control {
+            margin: 1rem .3rem !important;
+        }
+    }
+}
+
+@media screen and (max-width: 1432px) {
+    header {
+        padding: 0 !important;
+    }
+
+    .header-content {
+        height: 100% !important;
+    }
+
+    //contact section queries
+    .contact-content {
+        flex-direction: column !important;
+        margin-left: 0 !important;
+        margin-top: 2.5rem !important;
+    }
+
+    //name and email input to be in column
+    .contact-content .right-contact .text-email {
+        flex-direction: column !important;
+    }
+
+    .contact-content .right-contact .text-email :last-child {
+        margin-left: 0 !important;
+        margin-top: 1.5rem !important;
+    }
+
+    .contact-item {
+        height: 40px !important;
+    }
+
+    .section {
+        padding: 2rem 2.5rem !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    //about section queries
+    .about-container {
+        grid-template-columns: 1fr !important;
+
+        .right-about {
+            padding-top: 2.5rem !important;
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+    }
+}
