@@ -76,3 +76,9 @@ The portfolio site is structured into several sections, each designed to present
 - **Design Tools**: Figma (for prototyping and layout planning)
 
 ---
+
+## Access this website
+
+- You can access this website going to
+    ```bash
+    https://juanbracho.github.io/Resume-Website/
